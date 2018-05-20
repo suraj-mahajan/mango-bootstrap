@@ -1,0 +1,667 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <link href="css/mango.css" rel="stylesheet" />
+</head>
+<body>
+
+
+    <div class="container">
+        <nav class="navbar navbar-default main">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <div class="dropdown">
+                        <div class="user dropdown-toggle" type="button" data-toggle="dropdown">
+                            <div class="avatar">
+                                <img src="http://envato.stammtec.de/themeforest/mango/img/layout/content/toolbar/user/avatar.png">
+                            </div>
+                            <span>Administrator</span>
+                            <span class="caret"></span>
+                        </div>
+                        <ul class="dropdown-menu user-menu ">
+                            <li><a href="#">HTML</a></li>
+                            <li><a href="#">CSS</a></li>
+                            <li><a href="#">JavaScript</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <ul class="nav navbar-nav tabbed">
+                    <li><a href="#"><span class="glyphicon glyphicon-list-alt"></span></a></li>
+                    <li><a href="#"><span>Page 1</span></a></li>
+                    <li><a href="#"><span>Page 2</span></a></li>
+                    <li><a href="#"><span>Page 3</span></a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="">
+            <div class="col-md-2 leftmenubar  no-padding">
+                <div class="panel-group no-padding no-border" id="accordion">
+                    <div class="panel panel-default no-margin">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                                    <span class="glyphicon glyphicon-folder-close">
+                                    </span>Content
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseOne" class="panel-collapse collapse in">
+                            <div class="panel-body">
+                                <ul class="nav">
+                                    <li><a href="#">   item 1</a></li>
+                                    <li><a href="#">item 2</a></li>
+                                    <li><a href="#">item 3</a></li>
+                                    <li><a href="#">item 4</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default no-margin">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                                    <span class="glyphicon glyphicon-th">
+                                    </span>Modules
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseTwo" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <ul class="nav">
+                                    <li><a href="#">item 1</a></li>
+                                    <li><a href="#">item 2</a></li>
+                                    <li><a href="#">item 3</a></li>
+                                    <li><a href="#">item 4</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default no-margin">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                                    <span class="glyphicon glyphicon-user">
+                                    </span>Account
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseThree" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <ul class="nav">
+                                    <li><a href="#">item 1</a></li>
+                                    <li><a href="#">item 2</a></li>
+                                    <li><a href="#">item 3</a></li>
+                                    <li><a href="#">item 4</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-md-10 no-padding" style="padding-left:3px">
+                <div class="content">
+                    <!--<div class="stats not-on-phone">
+
+                    </div>-->
+                    <div class="col-md-12">
+                        <h1 class="h-header">
+                            <span>General User Interface (UI) Elements</span>
+                        </h1>
+                    </div>
+                    <div class="col-md-12 ">
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <span class="panel-title">Table</span>
+                            </div>
+                            <table class="table table-mango table-stripped ">
+                                <thead>
+                                    <tr>
+
+                                        <th>Rendering engine</th>
+                                        <th>Browser</th>
+                                        <th>Platform(s)</th>
+                                        <th>Engine version</th>
+                                        <th>CSS grade</th>
+                                        <th>Actions</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>  
+                                        <td>Trident</td> 
+                                        <td>Internet Explorer 4.0</td> 
+                                        <td>Win 95+</td> 
+                                        <td class="text-center">4</td> 
+                                        <td class="text-center">
+                                        <span class="label label-primary">X</span></td> 
+                                        <td class="text-center"> 
+                                            <button class="btn btn-default btn-sm" type="button">
+                                                <span class="glyphicon glyphicon-pencil"></span>
+                                            </button>
+                                            <button class="btn btn-default btn-sm" type="button">
+                                                <span class="glyphicon glyphicon-remove"></span>
+                                            </button>
+                                        </td> 
+                                    </tr>
+                                    <tr>
+                                        <td>Trident</td>
+                                        <td>Internet Explorer 4.0</td>
+                                        <td>Win 95+</td>
+                                        <td class="text-center">4</td>
+                                        <td class="text-center">
+                                            <span class="label label-primary">X</span>
+                                        </td>
+                                        <td class="text-center">
+                                            <button class="btn btn-default btn-sm" type="button">
+                                                <span class="glyphicon glyphicon-pencil"></span>
+                                            </button>
+                                            <button class="btn btn-default btn-sm" type="button">
+                                                <span class="glyphicon glyphicon-remove"></span>
+                                            </button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Trident</td>
+                                        <td>Internet Explorer 4.0</td>
+                                        <td>Win 95+</td>
+                                        <td class="text-center">4</td>
+                                        <td class="text-center">
+                                            <span class="label label-primary">X</span>
+                                        </td>
+                                        <td class="text-center">
+                                            <button class="btn btn-default btn-sm" type="button">
+                                                <span class="glyphicon glyphicon-pencil"></span>
+                                            </button>
+                                            <button class="btn btn-default btn-sm" type="button">
+                                                <span class="glyphicon glyphicon-remove"></span>
+                                            </button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Trident</td>
+                                        <td>Internet Explorer 4.0</td>
+                                        <td>Win 95+</td>
+                                        <td class="text-center">4</td>
+                                        <td class="text-center">
+                                            <span class="label label-primary">X</span>
+                                        </td>
+                                        <td class="text-center">
+                                            <button class="btn btn-default btn-sm" type="button">
+                                                <span class="glyphicon glyphicon-pencil"></span>
+                                            </button>
+                                            <button class="btn btn-default btn-sm" type="button">
+                                                <span class="glyphicon glyphicon-remove"></span>
+                                            </button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Trident</td>
+                                        <td>Internet Explorer 4.0</td>
+                                        <td>Win 95+</td>
+                                        <td class="text-center">4</td>
+                                        <td class="text-center">
+                                            <span class="label label-primary">X</span>
+                                        </td>
+                                        <td class="text-center">
+                                            <button class="btn btn-default btn-sm" type="button">
+                                                <span class="glyphicon glyphicon-pencil"></span>
+                                            </button>
+                                            <button class="btn btn-default btn-sm" type="button">
+                                                <span class="glyphicon glyphicon-remove"></span>
+                                            </button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Trident</td>
+                                        <td>Internet Explorer 4.0</td>
+                                        <td>Win 95+</td>
+                                        <td class="text-center">4</td>
+                                        <td class="text-center">
+                                            <span class="label label-primary">X</span>
+                                        </td>
+                                        <td class="text-center">
+                                            <button class="btn btn-default btn-sm" type="button">
+                                                <span class="glyphicon glyphicon-pencil"></span>
+                                            </button>
+                                            <button class="btn btn-default btn-sm" type="button">
+                                                <span class="glyphicon glyphicon-remove"></span>
+                                            </button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Trident</td>
+                                        <td>Internet Explorer 4.0</td>
+                                        <td>Win 95+</td>
+                                        <td class="text-center">4</td>
+                                        <td class="text-center">
+                                            <span class="label label-primary">X</span>
+                                        </td>
+                                        <td class="text-center">
+                                            <button class="btn btn-default btn-sm" type="button">
+                                                <span class="glyphicon glyphicon-pencil"></span>
+                                            </button>
+                                            <button class="btn btn-default btn-sm" type="button">
+                                                <span class="glyphicon glyphicon-remove"></span>
+                                            </button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Trident</td>
+                                        <td>Internet Explorer 4.0</td>
+                                        <td>Win 95+</td>
+                                        <td class="text-center">4</td>
+                                        <td class="text-center">
+                                            <span class="label label-primary">X</span>
+                                        </td>
+                                        <td class="text-center">
+                                            <button class="btn btn-default btn-sm" type="button">
+                                                <span class="glyphicon glyphicon-pencil"></span>
+                                            </button>
+                                            <button class="btn btn-default btn-sm" type="button">
+                                                <span class="glyphicon glyphicon-remove"></span>
+                                            </button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Trident</td>
+                                        <td>Internet Explorer 4.0</td>
+                                        <td>Win 95+</td>
+                                        <td class="text-center">4</td>
+                                        <td class="text-center">
+                                            <span class="label label-primary">X</span>
+                                        </td>
+                                        <td class="text-center">
+                                            <button class="btn btn-default btn-sm" type="button">
+                                                <span class="glyphicon glyphicon-pencil"></span>
+                                            </button>
+                                            <button class="btn btn-default btn-sm" type="button">
+                                                <span class="glyphicon glyphicon-remove"></span>
+                                            </button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Trident</td>
+                                        <td>Internet Explorer 4.0</td>
+                                        <td>Win 95+</td>
+                                        <td class="text-center">4</td>
+                                        <td class="text-center">
+                                            <span class="label label-primary">X</span>
+                                        </td>
+                                        <td class="text-center">
+                                            <button class="btn btn-default btn-sm" type="button">
+                                                <span class="glyphicon glyphicon-pencil"></span>
+                                            </button>
+                                            <button class="btn btn-default btn-sm" type="button">
+                                                <span class="glyphicon glyphicon-remove"></span>
+                                            </button>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-12">
+                        <div class="panel-group">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <span class="panel-title">General Progress Bars</span>
+                                </div>
+                                <!--<div class="panel-body">
+
+                                </div>-->
+                                <table class="table table-mango ">
+                                    <tr>
+                                        <td>
+                                            Default
+                                        </td>
+                                        <td>
+                                            <div class="progress">
+                                                <div class="progress-bar" role="progressbar" aria-valuenow="70"
+                                                     aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                                                    <span class="sr-only">70% Complete</span>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            progress-bar-success
+                                        </td>
+                                        <td>
+                                            <div class="progress">
+                                                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40"
+                                                     aria-valuemin="0" aria-valuemax="100" style="width:40%">
+                                                    40% Complete (success)
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+                                            progress-bar-info
+                                        </td>
+                                        <td>
+                                            <div class="progress">
+                                                <div class="progress-bar progress-bar-info progress-bar-striped" role="progressbar"
+                                                     aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:50%">
+                                                    50% Complete (info)
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            progress-bar-warning
+                                        </td>
+                                        <td>
+                                            <div class="progress">
+                                                <div class="progress-bar progress-bar-warning progress-bar-striped" role="progressbar"
+                                                     aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:60%">
+                                                    60% Complete (warning)
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <span class="panel-title">Animated</span>
+                                </div>
+                                    <table class="table table-mango">
+                                        <tr>
+                                            <td>
+                                                Simple
+                                            </td>
+                                            <td>
+                                                <div class="progress">
+                                                    <div class="progress-bar progress-bar-animated progress-bar-striped" role="progressbar"
+                                                         aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:60%">
+                                                        60% Complete (warning)
+                                                    </div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </table>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <span class="panel-title tab-left">
+                                    Tabs
+                                </span>
+                                <ul class="nav nav-tabs">
+                                    <li class="active"><a data-toggle="tab" href="#home">Home</a></li>
+                                    <li><a data-toggle="tab" href="#menu1">Menu 1</a></li>
+                                    <li><a data-toggle="tab" href="#menu2">Menu 2</a></li>
+                                </ul>
+                            </div>
+                                <div class="tab-content">
+                                    <div id="home" class="tab-pane fade in active">
+                                        <h3>HOME</h3>
+                                        <p>Some content.</p>
+                                    </div>
+                                    <div id="menu1" class="tab-pane fade">
+                                        <h3>Menu 1</h3>
+                                        <p>Some content in menu 1.</p>
+                                    </div>
+                                    <div id="menu2" class="tab-pane fade">
+                                        <h3>Menu 2</h3>
+                                        <p>Some content in menu 2.</p>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="panel panel-default">
+                             <div class="panel-heading">
+                                 <div class="panel-title">
+                                     Buttons
+                                 </div>
+                             </div>
+                            <div class="panel-body">
+                                <button type="button" class="btn">Basic</button>
+                                <button type="button" class="btn btn-default">Default</button>
+                                <button type="button" class="btn btn-primary">Primary</button>
+                                <button type="button" class="btn btn-success">Success</button>
+                                <button type="button" class="btn btn-info">Info</button>
+                                <button type="button" class="btn btn-warning">Warning</button>
+                                <button type="button" class="btn btn-danger">Danger</button>
+                                <button type="button" class="btn btn-link">Link</button>
+                                <button type="button" class="btn btn-primary btn-lg">Large</button>
+                                <button type="button" class="btn btn-primary btn-md">Medium</button>
+                                <button type="button" class="btn btn-primary btn-sm">Small</button>
+                                <button type="button" class="btn btn-primary btn-xs">XSmall</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-6">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                    <span class="panel-title">
+                                        Accordion
+                                    </span>
+                            </div>
+                            <div class="panel-group no-border no-margin no-padding"  id="accordion">
+                                <div class="panel panel-default no-border no-padding no-margin">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+                                                Collapsible Group 1
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapse1" class="panel-collapse collapse in">
+                                        <div class="panel-body">
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                                            minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                                            commodo consequat.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default no-border no-padding no-margin">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+                                                Collapsible Group 2
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapse2" class="panel-collapse collapse">
+                                        <div class="panel-body">
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                                            minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                                            commodo consequat.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default no-border no-padding no-margin">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+                                                Collapsible Group 3
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapse3" class="panel-collapse collapse">
+                                        <div class="panel-body">
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                                            minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                                            commodo consequat.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                   <div class="col-md-6">
+                       <div class="panel panel-default">
+                           <div class="panel-heading">
+                               <span class="panel-title">Tooltips</span>
+                           </div>
+                           <div class="panel-body">
+                               <a href="#" data-toggle="tooltip" data-placement="top" title="Hooray!">Hover</a>
+                               <a href="#" data-toggle="tooltip" data-placement="bottom" title="Hooray!">Hover</a>
+                               <a href="#" data-toggle="tooltip" data-placement="left" title="Hooray!">Hover</a>
+                               <a href="#" data-toggle="tooltip" data-placement="right" title="Hooray!">Hover</a>
+
+                           </div>
+                       </div>
+                   </div>
+
+                    <div class="col-md-6">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <span class="panel-title">Labels</span>
+                            </div>
+                            <div class="panel-body">
+                                <span class="label label-default">Default Label</span>
+                                <span class="label label-primary">Primary Label</span>
+                                <span class="label label-success">Success Label</span>
+                                <span class="label label-info">Info Label</span>
+                                <span class="label label-warning">Warning Label</span>
+                                <span class="label label-danger">Danger Label</span>
+                                <span class="label label-danger">Danger Label</span>
+                                <span class="label label-danger">Danger Label</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-12">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <span class="panel-title">Alerts</span>
+                            </div>
+                            <div class="panel-body">
+                                <div class="alert alert-success">
+                                    <strong>Success!</strong> Indicates a successful or positive action.
+                                </div>
+
+                                <div class="alert alert-info">
+                                    <strong>Info!</strong> Indicates a neutral informative change or action.
+                                </div>
+
+                                <div class="alert alert-warning">
+                                    <strong>Warning!</strong> Indicates a warning that might need attention.
+                                </div>
+
+                                <div class="alert alert-danger"
+                                    <strong>Danger!</strong> Indicates a dangerous or potentially negative action.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-6">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <span class="panel-title">Alerts Boxes Closable</span>
+                            </div>
+                            <div class="panel-body">
+
+                                <div class="alert alert-info top-at-panel">
+                                    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                                    <strong>Info!  </strong> Indicates a neutral informative change or action.
+                                </div>
+
+                                <div class="alert alert-success">
+                                    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                                    <strong>Success!</strong> Indicates a successful or positive action.
+                                </div>
+
+                                <div class="alert alert-info">
+                                    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                                    <strong>Info!</strong> Indicates a neutral informative change or action.
+                                </div>
+
+                                <div class="alert alert-warning">
+                                    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                                    <strong>Warning!</strong> Indicates a warning that might need attention.
+                                </div>
+
+                                <div class="alert alert-danger">
+                                    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                                    <strong>Danger!</strong> Indicates a dangerous or potentially negative action.
+                                </div>
+
+                                <div class="alert alert-warning bottom-at-panel">
+                                    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                                    <strong>Warning!</strong> Indicates a warning that might need attention.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-6">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <span class="panel-title">Alerts Boxes No Margins</span>
+                            </div>
+                            <div class="panel-body">
+
+                                
+                                <div class="alert alert-success panel-at-fixed">
+                                    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                                    <strong>Success!</strong> Indicates a successful or positive action.
+                                </div>
+
+                                <div class="alert alert-info panel-at-fixed">
+                                    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                                    <strong>Info!</strong> Indicates a neutral informative change or action.
+                                </div>
+
+                                <div class="alert alert-warning panel-at-fixed">
+                                    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                                    <strong>Warning!</strong> Indicates a warning that might need attention.
+                                </div>
+
+                                <div class="alert alert-danger panel-at-fixed">
+                                    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                                    <strong>Danger!</strong> Indicates a dangerous or potentially negative action.
+                                </div>
+
+                               
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <script>
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();
+});
+    </script>
+</body>
+</html>
